@@ -6,7 +6,7 @@ import '../services/camera.dart';
 import '../services/render_data_arm_press.dart';
 
 class PoseScreen extends StatefulWidget {
-  late final List<CameraDescription>? cameras;
+  final List<CameraDescription>? cameras;
   final String? title;
 
   PoseScreen({this.cameras, this.title});
@@ -16,7 +16,7 @@ class PoseScreen extends StatefulWidget {
 }
 
 class _PoseScreenState extends State<PoseScreen> {
-  late List<dynamic> _data;
+  List<dynamic>? _data;
   int _imageHeight = 0;
   int _imageWidth = 0;
   int x = 1;
