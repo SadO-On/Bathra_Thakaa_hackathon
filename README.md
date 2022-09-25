@@ -1,6 +1,6 @@
 # bathra_hackathon
 
-A new Flutter project.
+A project for Thakaa hackathon
 
 ## Getting Started
 
